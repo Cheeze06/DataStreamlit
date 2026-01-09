@@ -6,7 +6,7 @@ import seaborn as sns
 
 # 범죄명 매핑 사전
 KOREAN_CRIMES = {
-    "murder": "살인", "robbery": "강도", "sexual_assault": "강간·강제추행",
+    "murder": "살인", "robbery": "강도", "rape": "강간·강제추행",
     "theft": "절도", "violence": "폭력"
 }
 
@@ -56,3 +56,4 @@ ax.set_xlabel("연도")
 ax.set_ylabel("총 건수")
 plt.grid(True, linestyle='--', alpha=0.6)
 st.pyplot(fig_line)
+
